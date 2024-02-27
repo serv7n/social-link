@@ -1,0 +1,75 @@
+body {
+  font-family: "Inter", sans-serif;
+  height: 100vh;
+
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #141414;
+}
+
+.conteiner {
+  border-radius: 10px;
+  padding: 20px 70px;
+  background-color: #1f1f1f;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  border: 1px solid black;
+}
+
+.conteiner div {
+  display: flex;
+  flex-flow: column;
+}
+img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+.name {
+  font-size: 1.4em;
+  color: white;
+  margin: 0;
+  margin-top: 1em;
+}
+.nacion {
+  margin-top: 5px;
+  color: #bce152;
+  font-size: 0.9em;
+}
+.formacao {
+  font-size: 0.9em;
+  color: rgb(212, 212, 212);
+}
+
+a {
+  font-weight: 600;
+  text-align: center;
+  width: 300px;
+  padding: 20px;
+  margin: 10px 0px;
+  text-decoration: none;
+  padding: 20px;
+  background-color: #333333;
+  border-radius: 10px;
+  color: white;
+}
+
+a:hover {
+  color: black;
+  transition: 0.5s;
+  background-color: #bce152;
+}
+@media screen and (max-width: 768px) {
+  a {
+    width: 200px;
+  }
+
+  .conteiner {
+    height: 42em;
+    padding: 10px 30px;
+  }
+}
